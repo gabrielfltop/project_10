@@ -1,0 +1,186 @@
+:root {
+    --green: #5C913B;
+    --yellow: #FFA200;
+    --red: #CF3031;
+    --pink: #FFD4C9;
+    --white: #FEF6F4;
+    --gray: #616161;
+    --gray-200: #2E2E2E;
+}
+
+body {
+    font-family: 'Sora';
+}
+
+.banner {
+    background-image: url(../img/banner-pizza.png);
+    width: 100vw;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-weight: 600;
+    font-size: 96px;
+    color: #FFFFFF;
+}
+
+.pizzaria-name .yellow-letter {
+    color: var(--yellow);
+}
+
+.pizzaria-name .red-letter {
+    color: var(--red);
+}
+
+.pizzaria-name .green-letter {
+    color: var(--green);
+}
+
+.container {
+    max-width: 1120px;
+    margin: auto;
+}
+
+.bestsellers {
+    background-color: #FFFFFF;
+}
+
+.bestsellers-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--gray-200);
+}
+
+.bestsellers .section-title {
+    margin-top: 144px;
+}
+
+.pizza-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pizza {
+    width: 256px;
+    height: 275px;
+    background: var(--white);
+    border-radius: 25px;
+    margin: 88px 16px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.pizza-list img {
+    position: absolute;
+    top: -60px;
+}
+
+.like-button {
+    width: 35px;
+    height: 35px;
+    background: var(--pink);
+    border: 2px solid var(--red);
+    border-radius: 14px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: -21px;
+    right: 16px;
+}
+
+.bxs-heart {
+    width: 13px;
+    height: 12px;
+    color: var(--red);
+}
+
+.pizza-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--gray-200);
+    margin-top: 76px;
+}
+
+.pizza-description {
+    width: 180px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin: 8px 0 28px;
+    color: var(--gray);
+}
+
+.pizza-price {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--gray-200);
+}
+
+.buy-button  {
+    width: 157px;
+    height: 31px;
+    border: none;
+    border-radius: 25px;
+    background: var(--yellow);
+
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--gray-200);
+
+    position: absolute;
+    bottom: -15px;
+}
+
+.about-section {
+    width: 100%;
+    margin-top: 288px;
+    padding: 50px 0;
+    background: #FCFCFC;
+}
+
+.about-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pizzaria-description {
+    width: 458px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0;
+    color: var(--gray-200);
+}
+
+.read-button {
+    width: 148px;
+    height: 39px;
+    border: none;
+    border-radius: 25px;
+    background: var(--yellow);
+
+    font-weight: 600;
+    font-size: 16px;
+}
